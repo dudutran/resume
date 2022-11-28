@@ -272,6 +272,20 @@ Display Styles
 Page Styles
 ============================================*/
 
+/*MOBILE Friendly environment*/
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+}
+
 .wraper {
   width: 100%;
   height: 100%;
@@ -297,6 +311,8 @@ Page Styles
 .main-content {
   flex: 1;
   overflow-y: auto;
+  height: 100%;
+  width: 100%;
   margin-left: 10px;
   background: #fff;
   border-left: 1px solid rgba(221, 221, 221, 0.38);
