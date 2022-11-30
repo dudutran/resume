@@ -278,13 +278,6 @@ Page Styles
   zoom: 1.0 ;
 }
 
-@media (max-width: 600px) {
-
-}
-
-@media (min-width: 601px) {
-
-}
 
 .wraper {
   width: 100%;
@@ -465,6 +458,14 @@ Page Styles
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #222222;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #222222;
 }
 
 .text {
