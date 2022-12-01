@@ -3,28 +3,26 @@
     <div class="section1 p-30" id="Home">
         <div class="sec-title">
             <div class="pg-sub-title">Contact</div>
-            <div class="pg-title">My Contact</div>
+            <div class="pg-title">Contact Me</div>
         </div>
         <div>
             <div class="container">
                 <form action="https://formsubmit.co/lovesandlife@gmail.com" method="POST">
-                  <label for="fname">First Name</label>
+                  <label for="fname">First Name </label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
               
                   <label for="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
               
-                  <label for="country">Your email contact</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                  </select>
+                  <label for="country">Your email contact (optional)</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your contact for me to respond back ">
+                  
+                  <input type="hidden" name="_next" value="http://localhost:4200/thanks/">
+
+                  <label for="subject">Comment</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
               
-                  <label for="subject">Send</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Send">
                 </form>
               </div>
         </div>
