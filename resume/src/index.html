@@ -8,11 +8,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="styles.css">
 
   
 </head>
 <body>
   <app-root></app-root>
-  <script src="styles.css"></script>
+  <script>
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myToggle() {
+  var x = document.getElementById("myToggle");
+  if (x.innerHTML === "Hello") {
+    x.innerHTML = "Bye";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
+
+    </script>
+  <!--<script src="styles.css"></script>-->
 </body>
 </html>

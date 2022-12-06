@@ -10,13 +10,26 @@
   </style>
 </head>
 <body>
+  
+
   <div class="wraper">
+    
 		<div class="container">
-        <app-navigationbar></app-navigationbar>
-        <router-outlet></router-outlet>
-    </div>
+ 
+      <button onclick="myFunction()">
+        <div id="myToggle" onclick="myToggle()">Hello</div>
+      </button>
+
+        <div id="myDIV">
+          <app-navigationbar></app-navigationbar>
+        </div>
+      <router-outlet></router-outlet>
+    
   </div>
   
+</div>
+
+
 </body>
 </html>
 
