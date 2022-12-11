@@ -9,14 +9,13 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="styles.css">
-
   
 </head>
 <body>
   <app-root></app-root>
   <script>
 
-    function myFunction() {
+function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -26,10 +25,10 @@
 }
 function myToggle() {
   var x = document.getElementById("myToggle");
-  if (x.innerHTML === "Hello") {
-    x.innerHTML = "Bye";
+  if (x.innerHTML === "&lt;&lt;") {
+    x.innerHTML = "&gt;&gt;";
   } else {
-    x.innerHTML = "Hello";
+    x.innerHTML = "&lt;&lt;";
   }
 }
 
