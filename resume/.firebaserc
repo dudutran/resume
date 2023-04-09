@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "dutran-resume"
-  }
+    "default": "dutran-profile",
+    "staging": "dutran-profile",
+    "production": "dutran-profile"
+  },
+  "targets": {},
+  "etags": {}
 }
